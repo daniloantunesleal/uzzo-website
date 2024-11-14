@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-green: rgba(0, 255, 205, 1);
+    --dark-green: rgba(0, 78, 65, 1);
+
+    --light-gray: "#A4A4A4";
+    --dark-gray: "#AEAEAE";
+}
+
+html {
+    @media (max-width: 1080px) {
+        font-size: 93.75%;
+    }
+
+    @media (max-width: 720px) {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+body, input, textarea, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
