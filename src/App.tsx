@@ -1,7 +1,14 @@
+import { Menu } from "./components/Menu"
+import { Main } from "./components/Main"
+import { Home } from "./components/Home"
+
 export const App = () => {
     return (
         <>
-            <p>Hello World!</p>
+            <Menu />
+            <Main>
+                <Home />
+            </Main>
         </>
     )
 }

@@ -1,0 +1,39 @@
+.home {
+    text-align: center;
+    max-width: 56rem;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 5rem;
+        line-height: 4.5rem;
+        font-weight: 700;
+    }
+
+    p {
+        opacity: 0.5;
+        max-width: 40rem;
+        margin: 1rem auto 0;
+    }
+
+    span.green {
+        color: var(--light-green);
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+        
+        background-color: rgba(0, 242, 195, 1);
+        
+        margin: 1.5rem auto 0;
+        padding: 1rem 2.5rem;
+        
+        border-radius: 0.5rem;
+        border: none;
+
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+}
