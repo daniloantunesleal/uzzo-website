@@ -1,0 +1,35 @@
+{
+    "translation": {
+        "header": {
+            "home": "Início",
+            "feedbacks": "Feedbacks",
+            "services": "Serviços",
+            "aboutUs": "Quem somos",
+            "contactUs": "Fale Conosco!"
+        },
+        "services": {
+            "title": "Nossos serviços",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+            "websiteCreation": {
+                "title": "Criação de sites",
+                "description": "Lorem ipsum dolor sit amet. Vel optio vitae ea enim voluptatem et distinctio dolorem et culpa distinctio aut odit corporis. Qui delectus dolores qui Quis officia et dicta veritatis."
+            },
+            "socialMedia": {
+                "title": "Social mídia",
+                "description": "Lorem ipsum dolor sit amet. Vel optio vitae ea enim voluptatem et distinctio dolorem et culpa distinctio aut odit corporis. Qui delectus dolores qui Quis officia et dicta veritatis."
+            },
+            "digitalMarketingConsultancy": {
+                "title": "Consultoria de marketing digital",
+                "description": "Lorem ipsum dolor sit amet. Vel optio vitae ea enim voluptatem et distinctio dolorem et culpa distinctio aut odit corporis. Qui delectus dolores qui Quis officia et dicta veritatis."
+            },
+            "socialMediaManagement": {
+                "title": "Gestão de social mídia",
+                "description": "Lorem ipsum dolor sit amet. Vel optio vitae ea enim voluptatem et distinctio dolorem et culpa distinctio aut odit corporis. Qui delectus dolores qui Quis officia et dicta veritatis."
+            },
+            "visualIdentity": {
+                "title": "Identidade visual",
+                "description": "Lorem ipsum dolor sit amet. Vel optio vitae ea enim voluptatem et distinctio dolorem et culpa distinctio aut odit corporis. Qui delectus dolores qui Quis officia et dicta veritatis."
+            }
+        }
+    }
+}

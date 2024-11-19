@@ -1,22 +1,18 @@
-.home {
-    text-align: center;
-    max-width: 56rem;
+import styled from "styled-components";
+
+export const Container = styled.section`
     margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 80rem;
 
     h1 {
-        font-size: 5rem;
-        line-height: 4.5rem;
-        font-weight: 700;
+        line-height: 75px;
     }
 
     p {
         opacity: 0.5;
         max-width: 40rem;
-        margin: 1rem auto 0;
-    }
-
-    span.green {
-        color: var(--light-green);
+        margin: 1rem auto 1.5rem;
     }
 
     button {
@@ -27,7 +23,7 @@
         
         background-color: rgba(0, 242, 195, 1);
         
-        margin: 1.5rem auto 0;
+        margin: 0 auto;
         padding: 1rem 2.5rem;
         
         border-radius: 0.5rem;
@@ -36,4 +32,10 @@
         font-weight: 500;
         font-size: 1.3rem;
     }
-}
+
+    @media (max-width: 700px) {
+        h1 {
+            line-height: 45px;
+        }
+    }
+`
