@@ -1,6 +1,7 @@
 import { useContactModal } from "../../hooks/useContactModal"
 import { Container, Content } from "./styles"
 import { useTranslation } from "react-i18next"
+import { LanguageSwitch } from "./LanguageSwitch"
 
 import uzzoWhiteImg from "../../assets/uzzoWhite.svg"
 
@@ -22,6 +23,8 @@ export const Header = () => {
                 </div>
 
                 <button onClick={() => setIsContactModalOpen(true)}>{t("header.contactUs")}</button>
+
+                <LanguageSwitch />
             </Content>
         </Container>
     )

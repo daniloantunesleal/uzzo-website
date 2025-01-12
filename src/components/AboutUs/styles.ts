@@ -40,12 +40,6 @@ export const Container = styled.section`
         width: 30rem;
     }
 
-    /* @media (max-width: 950px) {
-        h1 {
-            font-size: 3rem;
-        }
-    } */
-
     @media (max-width: 850px) {
         .content {
             display: flex;
@@ -55,7 +49,7 @@ export const Container = styled.section`
             text-align: center;
         }
 
-        .image {
+        img {
             display: none;
         }
     }

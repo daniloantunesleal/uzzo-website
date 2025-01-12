@@ -27,6 +27,7 @@ export const Feedback = styled.div`
     flex-direction: column;
 
     max-width: 500px;
+    min-height: 337px;
     padding: 2rem;
     
     background-image: linear-gradient(to right, var(--light-green), var(--dark-green));

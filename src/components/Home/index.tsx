@@ -1,12 +1,16 @@
-import arrowRightImg from "../../assets/arrowRight.svg"
+import { useTranslation } from "react-i18next"
 import { Container } from "./styles"
 
+import arrowRightImg from "../../assets/arrowRight.svg"
+
 export const Home = () => {
+    const { t } = useTranslation()
+
     return (
         <Container id="home">
-            <h1>Impulsionamos <span className="green">Inovações Criativas</span> para resultados Extraordinários</h1>
-            <p>Na UZZO Solutions, não apenas criamos soluções digitais - nós criamos experiências que inspiram, engajam e transformam. Nosso foco é entender profundamente o seu negócio e os seus objetivos, desenvolvendo desde o design até o desenvolvimento de soluções personalizadas e impactantes.</p>
-            <button>Saiba mais <img src={arrowRightImg} alt="seta direita" /></button>
+            <h1 dangerouslySetInnerHTML={{ __html: t("home.title") }} />
+            <p>{t("home.description")}</p>
+            <button>{t("home.learnMoreButtonText")}<img src={arrowRightImg} alt="arrow right" /></button>
         </Container>
     )
 }

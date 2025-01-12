@@ -1,0 +1,97 @@
+{
+    "translation": {
+        "header": {
+            "home": "Início",
+            "feedbacks": "Feedbacks",
+            "services": "Serviços",
+            "aboutUs": "Quem somos",
+            "contactUs": "Fale Conosco!"
+        },
+        "home": {
+            "title": "Impulsionamos <span class=\"green\">Inovações Criativas</span> para resultados Extraordinários",
+            "description": "Na UZZO Solutions, não apenas criamos soluções digitais - nós criamos experiências que inspiram, engajam e transformam. Nosso foco é entender profundamente o seu negócio e os seus objetivos, desenvolvendo desde o design até o desenvolvimento de soluções personalizadas e impactantes.",
+            "learnMoreButtonText": "Saiba mais"
+        },
+        "customerCompanies": {
+            "title": "Empresas que escolheram a Uzzo para impulsionar seus negócios",
+            "flyers": {
+                "learnMoreButtonText": "Saiba mais"
+            }
+        },
+        "feedbacks": {
+            "title": "Avaliações de clientes",
+            "description": "Descubra o que nossos clientes têm para falar sobre suas experiências com nossos serviços e produtos"
+        },
+        "services": {
+            "title": "Nossos serviços",
+            "description": "Oferecemos serviços que abrangem desde o desenvolvimento de sites, consultoria de marketing digital, até a criação de uma identidade visual impactante para o seu negócio.",
+            "websiteCreation": {
+                "title": "Criação de sites",
+                "description": "Sites modernos, rápidos e adaptáveis às necessidades do seu negócio. Deixe sua marca no digital de forma profissional."
+            },
+            "socialMedia": {
+                "title": "Social mídia",
+                "description": "Transforme sua presença nas redes sociais com estratégias criativas e focadas em engajamento."
+            },
+            "digitalMarketingConsultancy": {
+                "title": "Consultoria de marketing digital",
+                "description": "Impulsione suas campanhas e alcance mais clientes com estratégias personalizadas e eficazes."
+            },
+            "socialMediaManagement": {
+                "title": "Gestão de social mídia",
+                "description": "Transforme sua presença nas redes sociais com estratégias criativas e focadas em engajamento."
+            },
+            "visualIdentity": {
+                "title": "Identidade visual",
+                "description": "Crie uma marca memorável, única e cheia de personalidade com nossa ajuda. Sua imagem, sua essência."
+            }
+        },
+        "aboutUs": {
+            "title": "Quem somos?",
+            "description": "Na UZZO, somos uma equipe especializada e dedicada a transformar ideias em soluções completas e impactantes. Contamos com profissionais experientes em design, social media, desenvolvimento, edição de vídeo e tráfego pago, oferecendo uma abordagem integrada para fortalecer a identidade e a presença das marcas no mercado. Nosso compromisso vai além da entrega de serviços: trabalhamos como parceiros estratégicos, unindo criatividade e técnica para alcançar resultados consistentes e memoráveis."
+        },
+        "accelerateResults": {
+            "title": "ACELERE SEUS RESULTADOS <span class=\"green\">AGORA!</span>",
+            "contactButtonText": "Entre em contato"
+        },
+        "footer": {
+            "links": {
+                "home": "Início",
+                "services": "Produtos e serviços",
+                "portfolio": "Trabalhos feitos",
+                "aboutUs": "Quem somos",
+                "contact": "Contato"
+            },
+            "newsletter": {
+                "title": "SE INSCREVA PARA RECEBER ATUALIZAÇÕES",
+                "sendButtonText": "Enviar"
+            },
+            "by": "Site feito por"
+        },
+        "contactModal": {
+            "title": "Fale conosco",
+            "email": {
+                "subject": "Contato Uzzo Solutions"
+            },
+            "inputName": {
+                "label": "Nome:",
+                "placeholder": "Digite seu nome"
+            },
+            "inputPhone": {
+                "label": "Telefone:",
+                "placeholder": "Digite seu telefone"
+            },
+            "selectService": {
+                "label": "Serviço desejado:",
+                "options": [
+                    "Criação de Sites Web",
+                    "Consultoria de Marketing Digital",
+                    "Gestão de Redes Sociais",
+                    "Identidade Visual"
+                ]
+            },
+            "description": "Ao enviar, você será redirecionado para seu aplicativo de e-mail.",
+            "submitButton": "Enviar"
+        }
+    }
+}

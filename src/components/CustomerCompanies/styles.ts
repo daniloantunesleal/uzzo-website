@@ -71,6 +71,7 @@ export const Flyer = styled.div`
     position: relative;
 
     img {
+        width: 21.5rem;
         transition: filter .5s;
     }
 

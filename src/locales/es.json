@@ -1,0 +1,97 @@
+{
+    "translation": {
+        "header": {
+            "home": "Inicio",
+            "feedbacks": "Opiniones",
+            "services": "Servicios",
+            "aboutUs": "Quiénes somos",
+            "contactUs": "¡Contáctanos!"
+        },
+        "home": {
+            "title": "Impulsamos <span class=\"green\">Innovaciones Creativas</span> para Resultados Extraordinarios",
+            "description": "En UZZO Solutions, no solo creamos soluciones digitales - creamos experiencias que inspiran, comprometen y transforman. Nuestro enfoque es comprender profundamente tu negocio y tus objetivos, desarrollando desde el diseño hasta soluciones personalizadas e impactantes.",
+            "learnMoreButtonText": "Saber más"
+        },
+        "customerCompanies": {
+            "title": "Empresas que eligieron a Uzzo para impulsar sus negocios",
+            "flyers": {
+                "learnMoreButtonText": "Saber más"
+            }
+        },
+        "feedbacks": {
+            "title": "Opiniones de clientes",
+            "description": "Descubre lo que nuestros clientes tienen para decir sobre sus experiencias con nuestros servicios y productos"
+        },
+        "services": {
+            "title": "Nuestros servicios",
+            "description": "Ofrecemos servicios que abarcan desde el desarrollo de sitios web, consultoría de marketing digital, hasta la creación de una identidad visual impactante para tu negocio.",
+            "websiteCreation": {
+                "title": "Creación de sitios web",
+                "description": "Sitios modernos, rápidos y adaptados a las necesidades de tu negocio. Deja tu marca en el mundo digital de forma profesional."
+            },
+            "socialMedia": {
+                "title": "Redes sociales",
+                "description": "Transforma tu presencia en las redes sociales con estrategias creativas y enfocadas en el compromiso."
+            },
+            "digitalMarketingConsultancy": {
+                "title": "Consultoría de marketing digital",
+                "description": "Impulsa tus campañas y alcanza más clientes con estrategias personalizadas y efectivas."
+            },
+            "socialMediaManagement": {
+                "title": "Gestión de redes sociales",
+                "description": "Transforma tu presencia en las redes sociales con estrategias creativas y enfocadas en el compromiso."
+            },
+            "visualIdentity": {
+                "title": "Identidad visual",
+                "description": "Crea una marca memorable, única y llena de personalidad con nuestra ayuda. Tu imagen, tu esencia."
+            }
+        },
+        "aboutUs": {
+            "title": "¿Quiénes somos?",
+            "description": "En UZZO, somos un equipo especializado y dedicado a transformar ideas en soluciones completas e impactantes. Contamos con profesionales experimentados en diseño, redes sociales, desarrollo, edición de video y tráfico pago, ofreciendo un enfoque integrado para fortalecer la identidad y la presencia de las marcas en el mercado. Nuestro compromiso va más allá de la entrega de servicios: trabajamos como socios estratégicos, uniendo creatividad y técnica para lograr resultados consistentes y memorables."
+        },
+        "accelerateResults": {
+            "title": "¡ACELERA TUS RESULTADOS <span class=\"green\">AHORA!</span>",
+            "contactButtonText": "Contáctanos"
+        },
+        "footer": {
+            "links": {
+                "home": "Inicio",
+                "services": "Productos y servicios",
+                "portfolio": "Trabajos realizados",
+                "aboutUs": "Quiénes somos",
+                "contact": "Contacto"
+            },
+            "newsletter": {
+                "title": "SUSCRÍBETE PARA RECIBIR ACTUALIZACIONES",
+                "sendButtonText": "Enviar"
+            },
+            "by": "Sitio creado por"
+        },
+        "contactModal": {
+            "title": "Contáctanos",
+            "email": {
+                "subject": "Contacto Uzzo Solutions"
+            },
+            "inputName": {
+                "label": "Nombre:",
+                "placeholder": "Ingresa tu nombre"
+            },
+            "inputPhone": {
+                "label": "Teléfono:",
+                "placeholder": "Ingresa tu teléfono"
+            },
+            "selectService": {
+                "label": "Servicio deseado:",
+                "options": [
+                    "Creación de sitios web",
+                    "Consultoría de marketing digital",
+                    "Gestión de redes sociales",
+                    "Identidad visual"
+                ]
+            },
+            "description": "Al enviar, serás redirigido a tu aplicación de correo electrónico.",
+            "submitButton": "Enviar"
+        }
+    }
+}

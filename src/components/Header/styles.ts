@@ -14,6 +14,8 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-around;
 
+    position: relative;
+
     height: 4rem;
 
     border-radius: 1rem;
@@ -46,6 +48,12 @@ export const Content = styled.div`
         border: none;
         border-radius: 3rem;
         padding: 0.5rem 1.5rem;
+    }
+
+    .language-switch {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
     }
 
     @media (max-width: 700px) {

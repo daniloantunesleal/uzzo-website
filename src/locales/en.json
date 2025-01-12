@@ -1,0 +1,97 @@
+{
+    "translation": {
+        "header": {
+            "home": "Home",
+            "feedbacks": "Feedbacks",
+            "services": "Services",
+            "aboutUs": "About Us",
+            "contactUs": "Contact Us!"
+        },
+        "home": {
+            "title": "We Drive <span class=\"green\">Creative Innovations</span> for Extraordinary Results",
+            "description": "At UZZO Solutions, we don't just create digital solutions - we craft experiences that inspire, engage, and transform. Our focus is to deeply understand your business and objectives, developing everything from design to impactful and tailored solutions.",
+            "learnMoreButtonText": "Learn More"
+        },
+        "customerCompanies": {
+            "title": "Companies That Chose Uzzo to Boost Their Business",
+            "flyers": {
+                "learnMoreButtonText": "Learn More"
+            }
+        },
+        "feedbacks": {
+            "title": "Customer Reviews",
+            "description": "Discover what our clients have to say about their experiences with our services and products"
+        },
+        "services": {
+            "title": "Our Services",
+            "description": "We offer services ranging from website development, digital marketing consultancy, to creating an impactful visual identity for your business.",
+            "websiteCreation": {
+                "title": "Website Creation",
+                "description": "Modern, fast websites tailored to your business needs. Establish your digital presence professionally."
+            },
+            "socialMedia": {
+                "title": "Social Media",
+                "description": "Transform your social media presence with creative and engagement-focused strategies."
+            },
+            "digitalMarketingConsultancy": {
+                "title": "Digital Marketing Consultancy",
+                "description": "Boost your campaigns and reach more clients with personalized and effective strategies."
+            },
+            "socialMediaManagement": {
+                "title": "Social Media Management",
+                "description": "Transform your social media presence with creative and engagement-focused strategies."
+            },
+            "visualIdentity": {
+                "title": "Visual Identity",
+                "description": "Create a memorable, unique, and full-of-personality brand with our help. Your image, your essence."
+            }
+        },
+        "aboutUs": {
+            "title": "Who Are We?",
+            "description": "At UZZO, we are a specialized and dedicated team transforming ideas into complete and impactful solutions. We have experienced professionals in design, social media, development, video editing, and paid traffic, offering an integrated approach to strengthen brand identity and presence in the market. Our commitment goes beyond delivering services: we work as strategic partners, combining creativity and technique to achieve consistent and memorable results."
+        },
+        "accelerateResults": {
+            "title": "ACCELERATE YOUR RESULTS <span class=\"green\">NOW!</span>",
+            "contactButtonText": "Contact Us"
+        },
+        "footer": {
+            "links": {
+                "home": "Home",
+                "services": "Products and Services",
+                "portfolio": "Portfolio",
+                "aboutUs": "About Us",
+                "contact": "Contact"
+            },
+            "newsletter": {
+                "title": "SUBSCRIBE TO RECEIVE UPDATES",
+                "sendButtonText": "Send"
+            },
+            "by": "Website created by"
+        },
+        "contactModal": {
+            "title": "Contact Us",
+            "email": {
+                "subject": "Uzzo Solutions Contact"
+            },
+            "inputName": {
+                "label": "Name:",
+                "placeholder": "Enter your name"
+            },
+            "inputPhone": {
+                "label": "Phone:",
+                "placeholder": "Enter your phone number"
+            },
+            "selectService": {
+                "label": "Desired Service:",
+                "options": [
+                    "Website Creation",
+                    "Digital Marketing Consultancy",
+                    "Social Media Management",
+                    "Visual Identity"
+                ]
+            },
+            "description": "By submitting, you will be redirected to your email application.",
+            "submitButton": "Send"
+        }
+    }
+}

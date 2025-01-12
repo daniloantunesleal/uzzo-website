@@ -5,18 +5,15 @@ import { CustomerCompanies } from "./components/CustomerCompanies"
 import { Feedbacks } from "./components/Feedbacks"
 import { Footer } from "./components/Footer"
 import { Services } from "./components/Services"
-import { About } from "./components/About"
+import { About } from "./components/AboutUs"
 import { ContactModalProvider } from "./hooks/useContactModal"
 import { ContactModal } from "./components/ContactModal"
-
-import Modal from "react-modal"
+import { AccelerateResults } from "./components/AccelerateResults"
 
 //@ts-expect-error Types were not declared
 import "swiper/css"
 //@ts-expect-error Types were not declared
 import "swiper/css/pagination"
-
-Modal.setAppElement("#root")
 
 export const App = () => {
     return (
@@ -29,6 +26,7 @@ export const App = () => {
                     <Feedbacks />
                     <Services />
                     <About />
+                    <AccelerateResults />
                     
                     <ContactModal />
                 </Main>
