@@ -1,51 +1,68 @@
-// import { MouseEvent } from "react"
-// import { useTranslation } from "react-i18next"
-// import { Container, LanguageOption } from "./styles"
+import { useState, MouseEvent } from "react"
+import { useTranslation } from "react-i18next"
+import { Container, LanguageOptions } from "./styles"
 
-// import brazilFlagImg from "../../../assets/brazilFlag.png"
-// import spainFlagImg from "../../../assets/spainFlag.png"
-// import usaFlagImg from "../../../assets/usaFlag.png"
+import brazilFlagImg from "../../../assets/brazilFlag.png"
+import spainFlagImg from "../../../assets/spainFlag.png"
+import usaFlagImg from "../../../assets/usaFlag.png"
 
-// export const LanguageSwitch = () => {
-//     const { i18n: { changeLanguage } } = useTranslation()
+export const LanguageSwitch = () => {
+    const { i18n: { changeLanguage, language } } = useTranslation()
+    const [isOpenLanguageOptions, setIsOpenLanguageOptions] = useState(false)
 
-//     const languages = [
-//         {   
-//             name: "Português",
-//             image: brazilFlagImg,
-//             key: "pt"
-//         },
-//         {   
-//             name: "English",
-//             image: usaFlagImg,
-//             key: "en"
-//         },
-//         {   
-//             name: "Español",
-//             image: spainFlagImg,
-//             key: "es"
-//         },
-//     ]
+    const languages = [
+        {
+            image: brazilFlagImg,
+            key: "pt"
+        },
+        {
+            image: usaFlagImg,
+            key: "en"
+        },
+        {
+            image: spainFlagImg,
+            key: "es"
+        },
+    ]
 
-//     const handleChangeLanguage = (e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>) => {
-//         const languageOption = e.target as HTMLDivElement
-//         const languageKey = languageOption.getAttribute("data-lang")
+    const handleChangeLanguage = (e: MouseEvent<HTMLImageElement>) => {
+        const languageOption = e.currentTarget
+        const languageKey = languageOption.getAttribute("data-lang") || "en"
 
-//         if (!languageKey) {
-//             return console.error("Unable to identify the language to be changed")
-//         }
+        changeLanguage(languageKey)
+        setIsOpenLanguageOptions(false)
+    }
 
-//         changeLanguage(languageKey)
-//     }
+    return (
+        <Container>
+            <img 
+                className="selected" 
+                onClick={() => setIsOpenLanguageOptions(isOpen => !isOpen)} 
+                src={
+                    languages.find(
+                        languageAttributes => languageAttributes.key === language
+                    )?.image || usaFlagImg
+                } 
+                alt="language flag" 
+            />
 
-//     return (
-//         <Container className="language-switch">
-//             {/* {languages.map((language, index) => (
-//                 <LanguageOption key={index} data-lang={language.key} onClick={handleChangeLanguage}>
-//                     <img src={language.image} alt="foto lingua" />
-//                     <p>{language.name}</p>
-//                 </LanguageOption>
-//             ))} */}
-//         </Container>
-//     )
-// }
+            {isOpenLanguageOptions && (
+                <LanguageOptions>
+                    {languages.map((languageAttributes, index) => {
+                        if (languageAttributes.key !== language) {
+                            return (
+                                <img 
+                                    key={index} 
+                                    onClick={handleChangeLanguage} 
+                                    data-lang={languageAttributes.key} 
+                                    src={languageAttributes.image} 
+                                    alt="language flag" 
+                                />
+                            )
+                        }
+                    })}
+                </LanguageOptions>
+            )}
+        </Container>
+    )
+}

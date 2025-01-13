@@ -28,7 +28,7 @@ export const Content = styled.div`
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
 
-    div {
+    div.menu {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -42,18 +42,19 @@ export const Content = styled.div`
             margin-left: 1rem;
         }
     }
+    
+    div.contact-and-language {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
 
-    button {
-        background-color: rgba(0, 242, 195, 1);
-        border: none;
-        border-radius: 3rem;
-        padding: 0.5rem 1.5rem;
-    }
-
-    .language-switch {
-        position: absolute;
-        right: 1rem;
-        top: 1rem;
+        button {
+            background-color: rgba(0, 242, 195, 1);
+            border: none;
+            border-radius: 3rem;
+            padding: 0.5rem 1.5rem;
+        }
     }
 
     @media (max-width: 700px) {

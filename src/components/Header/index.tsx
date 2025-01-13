@@ -1,7 +1,7 @@
 import { useContactModal } from "../../hooks/useContactModal"
 import { Container, Content } from "./styles"
 import { useTranslation } from "react-i18next"
-// import { LanguageSwitch } from "./LanguageSwitch"
+import { LanguageSwitch } from "./LanguageSwitch"
 
 import uzzoWhiteImg from "../../assets/uzzoWhite.svg"
 
@@ -12,7 +12,7 @@ export const Header = () => {
     return (
         <Container>
             <Content>
-                <div>
+                <div className="menu">
                     <img src={uzzoWhiteImg} alt="Logo Uzzo" />
                     <nav>
                         <a href="#home">{t("header.home")}</a>
@@ -22,9 +22,11 @@ export const Header = () => {
                     </nav>
                 </div>
 
-                <button onClick={() => setIsContactModalOpen(true)}>{t("header.contactUs")}</button>
+                <div className="contact-and-language">
+                    <button onClick={() => setIsContactModalOpen(true)}>{t("header.contactUs")}</button>
+                    <LanguageSwitch />
+                </div>
 
-                {/* <LanguageSwitch /> */}
             </Content>
         </Container>
     )
