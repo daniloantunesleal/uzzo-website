@@ -64,6 +64,7 @@
             },
             "newsletter": {
                 "title": "SUSCRÍBETE PARA RECIBIR ACTUALIZACIONES",
+                "placeholder": "Correo electrónico",
                 "sendButtonText": "Enviar"
             },
             "by": "Sitio creado por"

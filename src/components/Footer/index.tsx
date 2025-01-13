@@ -33,7 +33,7 @@ export const Footer = () => {
                 <div className="newsletter">
                     <h2>{t("footer.newsletter.title")}</h2>
                     <div>
-                        <input type="email" placeholder="Endereço e-mail" />
+                        <input type="email" placeholder={t("footer.newsletter.placeholder")} />
                         <button>{t("footer.newsletter.sendButtonText")}</button>
                     </div>
                 </div>
