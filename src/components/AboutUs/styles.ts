@@ -4,7 +4,7 @@ export const Container = styled.section`
     margin: 10rem auto 0;
     padding: 0 2rem;
 
-    text-align: start;
+    text-align: justify;
 
     display: flex;
     justify-content: center;
@@ -29,10 +29,12 @@ export const Container = styled.section`
         align-items: center;
         justify-content: center;
         gap: 5px;
+
         max-width: 12rem;
+        padding: 0.7rem 3rem;
+        
         color: var(--light-green);
         border-radius: 2rem;
-        padding: 0.7rem 3rem;
         border: 1px solid var(--light-green);
     }
 
@@ -46,7 +48,6 @@ export const Container = styled.section`
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            text-align: center;
         }
 
         img {

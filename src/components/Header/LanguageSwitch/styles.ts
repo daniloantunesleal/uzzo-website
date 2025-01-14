@@ -4,7 +4,7 @@ export const Container = styled.div`
     position: relative;
 
     img {
-        width: 1.5rem;
+        width: 1.7rem;
         height: 1.5rem;
         border-radius: 20%;
         cursor: pointer;

@@ -47,7 +47,7 @@ export const Content = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 1.5rem;
+        gap: 0.7rem;
 
         button {
             background-color: rgba(0, 242, 195, 1);

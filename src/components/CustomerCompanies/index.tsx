@@ -65,8 +65,14 @@ export const CustomerCompanies = () => {
             <Flyers>
                 {flyers.map((flyer, index) => (
                     <Flyer key={index}>
-                        <img src={flyer.imgUrl} alt="panfleto" />
-                        <a className="overlay-text" href={flyer.link}>{t("customerCompanies.flyers.learnMoreButtonText")} <FaLongArrowAltRight /></a>
+                        <img src={flyer.imgUrl} alt="flyer" />
+                        <a 
+                            className="overlay-text" 
+                            href={flyer.link}
+                        >
+                            {t("customerCompanies.flyers.learnMoreButtonText")} 
+                            <FaLongArrowAltRight />
+                        </a>
                     </Flyer> 
                 ))}
             </Flyers>
@@ -80,8 +86,14 @@ export const CustomerCompanies = () => {
                     {flyers.map((flyer, index) => (
                         <SwiperSlide key={index}>
                             <Flyer key={index}>
-                                <img src={flyer.imgUrl} alt="panfleto" />
-                                <a className="overlay-text" href={flyer.link}>{t("customerCompanies.flyers.learnMoreButtonText")} <FaLongArrowAltRight /></a>
+                                <img src={flyer.imgUrl} alt="flyer" />
+                                <a 
+                                    className="overlay-text" 
+                                    href={flyer.link}
+                                >
+                                    {t("customerCompanies.flyers.learnMoreButtonText")} 
+                                    <FaLongArrowAltRight />
+                                </a>
                             </Flyer>
                         </SwiperSlide>
                     ))}

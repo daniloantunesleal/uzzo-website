@@ -12,8 +12,12 @@ export const ContactModal = () => {
     const [phone, setPhone] = useState("")
     const inputSelectService = useRef<HTMLSelectElement>(null)
 
-    const handleSubmit = (e: FormEvent) => {
-        e.preventDefault()
+    const getSelectService = () => (
+        inputSelectService.current?.options[inputSelectService.current.selectedIndex].text
+    )
+
+    const handleSubmit = ({ preventDefault }: FormEvent) => {
+        preventDefault()
 
         const email = {
             subject: encodeURIComponent(t("contactModal.email.subject")),
@@ -24,7 +28,7 @@ export const ContactModal = () => {
             )} ${phone}\n${t(
                 "contactModal.selectService.label"
             )} ${
-                inputSelectService.current?.options[inputSelectService.current.selectedIndex].text
+                getSelectService()
             }`)
         }
 
@@ -40,7 +44,11 @@ export const ContactModal = () => {
             overlayClassName="react-modal-overlay"
             className="react-modal-content"
         >
-            <button type="button" onClick={() => setIsContactModalOpen(false)} className="react-modal-close">
+            <button 
+                type="button" 
+                onClick={() => setIsContactModalOpen(false)} 
+                className="react-modal-close"
+            >
                 <FaWindowClose color="#ff0000" size="2rem" />
             </button>
 
@@ -65,7 +73,9 @@ export const ContactModal = () => {
                 />
                 <label htmlFor="service">{t("contactModal.selectService.label")}</label>
                 <select ref={inputSelectService} id="service">
-                    {(t("contactModal.selectService.options", { returnObjects: true }) as Array<string>).map((option, index) => (
+                    {(
+                        t("contactModal.selectService.options", { returnObjects: true }) as Array<string>
+                    ).map((option, index) => (
                         <option key={index}>{option}</option>
                     ))}
                 </select>

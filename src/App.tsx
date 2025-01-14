@@ -5,7 +5,7 @@ import { CustomerCompanies } from "./components/CustomerCompanies"
 import { Feedbacks } from "./components/Feedbacks"
 import { Footer } from "./components/Footer"
 import { Services } from "./components/Services"
-import { About } from "./components/AboutUs"
+import { AboutUs } from "./components/AboutUs"
 import { ContactModalProvider } from "./hooks/useContactModal"
 import { ContactModal } from "./components/ContactModal"
 import { AccelerateResults } from "./components/AccelerateResults"
@@ -25,7 +25,7 @@ export const App = () => {
                     <CustomerCompanies />
                     <Feedbacks />
                     <Services />
-                    <About />
+                    <AboutUs />
                     <AccelerateResults />
                     
                     <ContactModal />

@@ -106,18 +106,16 @@ export const FooterContact = styled.div`
     align-items: center;
     width: 100%;
 
-    div {
-        p {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 5px;
+    div > p {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
 
-            margin-left: 15px;
+        margin-left: 15px;
 
-            &:first-child {
-                margin-left: 0;
-            }
+        &:first-child {
+            margin-left: 0;
         }
     }
 
@@ -125,5 +123,9 @@ export const FooterContact = styled.div`
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
+
+        div > p {
+            margin-left: 0;
+        }
     }
 `
